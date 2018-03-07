@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     EditText et;
     Button bt1, bt2, btcall, btcallfriend, btnMap, btnWeb;
     TextView t1;
-    final int ACTIVITY_3 = 3;
+    final int ACTIVITY_3 = 40;
 
 
     @Override
