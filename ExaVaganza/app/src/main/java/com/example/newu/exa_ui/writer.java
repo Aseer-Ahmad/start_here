@@ -26,7 +26,7 @@ public class writer extends AppCompatActivity {
         adapter.addFragment(new fragmentwork(),"WORKING");
         adapter.addFragment(new fragmentcreated(),"CREATED");
 
-        
+
 
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
