@@ -22,11 +22,11 @@ public class writer extends AppCompatActivity {
 
         //add fragment
 
-       adapter.addFragment(new fragmentarr(),"ARRIVALS");
+        adapter.addFragment(new fragmentarr(),"ARRIVALS");
         adapter.addFragment(new fragmentwork(),"WORKING");
         adapter.addFragment(new fragmentcreated(),"CREATED");
 
-
+        
 
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
