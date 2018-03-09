@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".client" />
-        <activity android:name=".writer"></activity>
+        <activity android:name=".writer" />
+        <activity android:name=".Book_activity"></activity>
     </application>
 
 </manifest>

@@ -30,5 +30,8 @@ public class client extends AppCompatActivity {
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
 
+
+
+
     }
 }
