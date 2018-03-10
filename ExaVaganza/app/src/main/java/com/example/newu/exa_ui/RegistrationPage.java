@@ -17,13 +17,13 @@ public class RegistrationPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.registration_page);
 
-        firstname = findViewById(R.id.firstName);
-        lastname = findViewById(R.id.lastName);
-        passwordtext = findViewById(R.id.password);
-        rePassword = findViewById(R.id.re_enter);
-        email = findViewById(R.id.email);
-        phone = findViewById(R.id.phone);
-        submitButton = findViewById(R.id.submitButton);
+    firstname = findViewById(R.id.firstName);
+    lastname = findViewById(R.id.lastName);
+    passwordtext = findViewById(R.id.password);
+    rePassword = findViewById(R.id.re_enter_password);
+    email = findViewById(R.id.email);
+    phone = findViewById(R.id.phone);
+    submitButton = findViewById(R.id.submitButton);
     }
 
     public void onSubmitButtonClick(View view){
