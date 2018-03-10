@@ -52,24 +52,24 @@ public class fragmentnew extends Fragment {
         super.onStart();
 
 
-            recyclerView.setHasFixedSize(true);
-            recyclerView.setLayoutManager(new LinearLayoutManager(this.getActivity()));
-            listItems = new ArrayList<>();
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this.getActivity()));
+        listItems = new ArrayList<>();
 
-            for(int i = 0;i<=10;i++){
-                ListItem listItem = new ListItem(
-                        "heading" + (i+1),
-                        "Loren Ipsum Dummy Test"
-                );
-                listItems.add(listItem);
-            }
-
-            adapter = new MyAdapter(listItems, this.getActivity());
-            recyclerView.setAdapter(adapter);
+        for(int i = 0;i<=10;i++){
+            ListItem listItem = new ListItem(
+                    "heading" + (i+1),
+                    "Loren Ipsum Dummy Test"
+            );
+            listItems.add(listItem);
         }
 
-
+        adapter = new MyAdapter(listItems, this.getActivity());
+        recyclerView.setAdapter(adapter);
     }
+
+
+}
 
 
 
