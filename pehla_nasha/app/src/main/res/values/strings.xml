@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">My Application1</string>
-    <string name="hint_name">please type here</string>
-    <string name="btn_activity2">go to activity 2</string>
-    <string name="btn_activity3">go to activity 3</string>
-
-</resources>
